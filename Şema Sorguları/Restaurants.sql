@@ -1,0 +1,7 @@
+CREATE TABLE Restaurants (
+    RestaurantID INT PRIMARY KEY IDENTITY,
+    Name NVARCHAR(100) NOT NULL,
+    Rating DECIMAL(2,1) CHECK (Rating BETWEEN 1 AND 5),
+    TotalRevenue DECIMAL(10,2) DEFAULT 0,
+    IsActive BIT DEFAULT 1
+);

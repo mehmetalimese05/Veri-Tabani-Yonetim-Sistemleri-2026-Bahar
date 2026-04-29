@@ -1,0 +1,1 @@
+INSERT INTO CharityPool VALUES (1,0);
