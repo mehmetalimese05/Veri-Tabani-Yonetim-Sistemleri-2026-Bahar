@@ -1,0 +1,1 @@
+Bu backup SQL Server'ın en yeni versiyonunda alındığı için eski SQL Server sürümlerinde restore backup (restore database) yapamayabilirsiniz.
